@@ -3,6 +3,7 @@
     <string name="bathroom_sign_out">bathroom sign out</string>
     <string name="whatteacher">What teacher are you leaving from?</string>
     <string name="submit">Submit</string>
+    <string name="full_name">Full Name</string>
     <string-array name="brew_array">
         <item>Scott</item>
         <item>Tierney</item>
