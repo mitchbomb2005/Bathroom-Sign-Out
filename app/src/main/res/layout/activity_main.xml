@@ -35,11 +35,11 @@
 
     <Spinner
         android:id="@+id/spinner"
-        android:layout_width="409dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="1dp"
+        android:layout_width="215dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="98dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="98dp"
         android:entries="@array/brew_array"
         android:minHeight="48dp"
         app:layout_constraintEnd_toEndOf="parent"
