@@ -4,6 +4,7 @@
     <string name="whatteacher">What teacher are you leaving from?</string>
     <string name="submit">Submit</string>
     <string name="full_name">Full Name</string>
+    <string name="please_write_full_name_below">Please write FULL NAME below</string>
     <string-array name="brew_array">
         <item>Scott</item>
         <item>Tierney</item>
