@@ -3,11 +3,8 @@ package com.example.bathroomsign_out
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
-import android.widget.AdapterView
-import android.widget.Button
+import android.widget.*
 import com.github.kittinunf.fuel.Fuel
-import android.widget.Spinner
-import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -16,6 +13,8 @@ class MainActivity : AppCompatActivity() {
         val spinner = findViewById<Spinner>(R.id.spinner)
         val button: Button = findViewById(R.id.button)
         var selectedname = "no teacher selected"
+        var ed1 = findViewById<EditText>(R.id.nameinput)
+        var fullname = ed1.text
 
         spinner.onItemSelectedListener = object : AdapterView.OnItemSelectedListener {
             override fun onItemSelected(
@@ -46,7 +45,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         button.setOnClickListener{
-            Fuel.get("https://thatpenguin.net/bathroom?n=$selectedname&p=testalso")
+            Fuel.get("https://thatpenguin.net/bathroom?n=$fullname&p=$selectedname")
                 .response { request, response, result ->
                     println(request)
                     println(response)
