@@ -54,6 +54,9 @@ class MainActivity : AppCompatActivity() {
                         println("[response bytes] ${String(bytes)}")
                     }
                 }
+            Thread.sleep(300)
+            finish();
+            System.exit(0);
         }
     }
 
