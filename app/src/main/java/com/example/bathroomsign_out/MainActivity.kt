@@ -5,6 +5,7 @@ import android.os.Bundle
 import android.view.View
 import android.widget.*
 import com.github.kittinunf.fuel.Fuel
+import kotlin.system.exitProcess
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -54,9 +55,11 @@ class MainActivity : AppCompatActivity() {
                         println("[response bytes] ${String(bytes)}")
                     }
                 }
-            Thread.sleep(300)
+            Thread.sleep(100)
+            val toast = Toast.makeText(this, "Success!", Toast.LENGTH_SHORT)
+            toast.show();
             finish();
-            System.exit(0);
+            exitProcess(0);
         }
     }
 
