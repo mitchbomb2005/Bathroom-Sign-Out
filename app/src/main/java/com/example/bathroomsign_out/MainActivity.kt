@@ -55,11 +55,11 @@ class MainActivity : AppCompatActivity() {
                         println("[response bytes] ${String(bytes)}")
                     }
                 }
-            Thread.sleep(100)
             val toast = Toast.makeText(this, "Success!", Toast.LENGTH_SHORT)
             toast.show();
+            Thread.sleep(300)
             finish();
-            exitProcess(0);
+            //exitProcess(0);
         }
     }
 
