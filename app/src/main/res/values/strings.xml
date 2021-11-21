@@ -7,15 +7,53 @@
     <string name="please_write_full_name_below">Please write FULL NAME below</string>
     <string name="created_by_mitchell_beaudoin">Created By: Mitchell Beaudoin</string>
     <string-array name="brew_array">
-        <item>Scott</item>
-        <item>Tierney</item>
+        <item>Archambault</item>
+        <item>Audibert</item>
         <item>Avcollie</item>
-        <item>Johnson</item>
-        <item>Fuller</item>
+        <item>Avery</item>
+        <item>Baranowski</item>
+        <item>Card</item>
+        <item>Chiasson</item>
+        <item>DaSilva</item>
+        <item>Decarolis</item>
+        <item>DiStasio</item>
         <item>Erikson</item>
-        <item>Maslak</item>
         <item>Foulds</item>
+        <item>Fuller</item>
+        <item>Gerent</item>
+        <item>Glenn</item>
+        <item>Hults</item>
+        <item>Hurd</item>
+        <item>Johnson</item>
+        <item>Keane</item>
+        <item>Keller</item>
+        <item>Koenig</item>
+        <item>Kuczenski</item>
+        <item>Lanning</item>
+        <item>Layton</item>
+        <item>Lintzner</item>
+        <item>Luba</item>
+        <item>Lungarini</item>
+        <item>Lusitani</item>
+        <item>Maslak</item>
+        <item>McGowan</item>
         <item>Miller</item>
-        <item>Sconz</item>
+        <item>Nave</item>
+        <item>Norton</item>
+        <item>Padelli</item>
+        <item>Perkins</item>
+        <item>Prescott</item>
+        <item>Ritchie</item>
+        <item>Robillard</item>
+        <item>Robitaille</item>
+        <item>Rodriguez</item>
+        <item>Sconziano</item>
+        <item>Scott</item>
+        <item>Simpson</item>
+        <item>Solarz</item>
+        <item>Tierney</item>
+        <item>Veleas</item>
+        <item>Vigliotti</item>
+        <item>Werner</item>
     </string-array>
 </resources>
